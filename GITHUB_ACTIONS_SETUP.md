@@ -1,6 +1,6 @@
 # GitHub Actions Configuration
 
-## 🔐 Setting Up AWS Credentials for GitHub Actions
+## Setting Up AWS Credentials for GitHub Actions
 
 ### Option 1: Using IAM Role (Recommended - OIDC)
 

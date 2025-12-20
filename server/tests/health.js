@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 
-console.log('🧪 Running Health Checks...\n');
+console.log('Running Health Checks...\n');
 
 const checks = {
   'app.js exists': () => fs.existsSync(path.join(__dirname, '../app.js')),
@@ -20,10 +20,10 @@ Object.entries(checks).forEach(([check, testFn]) => {
   try {
     const result = testFn();
     if (result) {
-      console.log(`${check}`);
+      console.log(`[PASS] ${check}`);
       passed++;
     } else {
-      console.log(` ${check}`);
+      console.log(`[FAIL] ${check}`);
       failed++;
     }
   } catch (err) {
@@ -32,11 +32,11 @@ Object.entries(checks).forEach(([check, testFn]) => {
   }
 });
 
-console.log(`\n Results: ${passed} passed, ${failed} failed\n`);
+console.log(`\nResults: ${passed} passed, ${failed} failed\n`);
 
 if (failed > 0) {
   process.exit(1);
 }
 
-console.log('✨ All checks passed!');
+console.log('All checks passed!');
 process.exit(0);

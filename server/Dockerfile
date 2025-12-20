@@ -21,12 +21,6 @@ COPY --from=builder /app/node_modules ./node_modules
 # Copy application code
 COPY . .
 
-# Create non-root user
-RUN addgroup -g 1001 -S nodejs && \
-    adduser -S nodejs -u 1001
-
-USER nodejs
-
 EXPOSE 5000
 
 HEALTHCHECK --interval=30s --timeout=3s --start-period=40s --retries=3 \

@@ -1,6 +1,6 @@
 # Docker & CI/CD Configuration
 
-## 📁 Files Created
+## Files Created
 
 ### 1. **Dockerfile** (`server/Dockerfile`)
 - Multi-stage build for production

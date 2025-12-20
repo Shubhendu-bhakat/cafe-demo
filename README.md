@@ -1,8 +1,8 @@
-# ☕ Coffee Shop Booking System
+# Coffee Shop Booking System
 
 A complete full-stack application for managing coffee shop reservations with automated Docker deployment and CI/CD pipeline.
 
-## 📋 Project Overview
+## Project Overview
 
 **Frontend**: Next.js 16 (TypeScript)  
 **Backend**: Express.js + Prisma + PostgreSQL  
@@ -10,33 +10,33 @@ A complete full-stack application for managing coffee shop reservations with aut
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Backend API
-- ✅ RESTful API endpoints
-- ✅ PostgreSQL database (Neon cloud)
-- ✅ Prisma ORM for database management
-- ✅ JWT authentication ready
-- ✅ Booking management system
-- ✅ Health checks enabled
+* RESTful API endpoints
+* PostgreSQL database (Neon cloud)
+* Prisma ORM for database management
+* JWT authentication ready
+* Booking management system
+* Health checks enabled
 
 ### Frontend
-- ✅ Responsive booking form
-- ✅ Real-time form validation
-- ✅ Error handling
-- ✅ Success confirmations
-- ✅ Connected to backend API
+* Responsive booking form
+* Real-time form validation
+* Error handling
+* Success confirmations
+* Connected to backend API
 
 ### Deployment
-- ✅ Docker containerization
-- ✅ GitHub Actions CI/CD
-- ✅ Automated testing
-- ✅ AWS ECR integration
-- ✅ Master branch deployment
+* Docker containerization
+* GitHub Actions CI/CD
+* Automated testing
+* AWS ECR integration
+* Master branch deployment
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 coffee-shop-website-design/

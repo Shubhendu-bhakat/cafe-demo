@@ -1,6 +1,6 @@
 # Docker & CI/CD Setup Guide
 
-## 📋 Overview
+## Overview
 
 This project includes:
 - **Dockerfile**: Multi-stage build for optimized backend image
@@ -9,14 +9,14 @@ This project includes:
 
 ---
 
-## 🐳 Docker Setup
+## Docker Setup
 
 ### Dockerfile Features
-- ✅ Multi-stage build (reduces image size)
-- ✅ Non-root user for security
-- ✅ Health checks configured
-- ✅ Proper signal handling with dumb-init
-- ✅ Optimized for production
+* Multi-stage build (reduces image size)
+* Non-root user for security
+* Health checks configured
+* Proper signal handling with dumb-init
+* Optimized for production
 
 ### Build Docker Image Locally
 
