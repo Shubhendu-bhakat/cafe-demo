@@ -1,0 +1,19 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd client/nextjspart/app
+        - npm install
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: client/nextjspart/app/.next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - client/nextjspart/app/node_modules/**/*
+      - client/nextjspart/app/.next/cache/**/*
+
